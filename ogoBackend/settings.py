@@ -30,9 +30,9 @@ SECRET_KEY = 'django-insecure-09_fghr!ngrk^w9%af#npz6^b2o6(8-m2q%n(7z966fu+vy+97
 DEBUG = True
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['192.168.43.154','127.0.0.1','192.168.1.33','192.168.1.43','192.168.116.154','0.0.0.0', '10.0.2.2', 'localhost', '172.20.10.5' , '192.168.115.154', '192.168.115.82' , '192.168.28.154']
+# ALLOWED_HOSTS = ['192.168.43.154','127.0.0.1','192.168.1.33','192.168.1.43','192.168.116.154','0.0.0.0', '10.0.2.2', 'localhost', '172.20.10.5' , '192.168.115.154', '192.168.115.82' , '192.168.28.154']
                   
-# ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [".vercel.app"]
 # CSRF_TRUSTED_ORIGINS = ["http://*.on-acorn.io" , "https://*.on-acorn.io"]
 # ALLOWED_HOSTS = ['172.20.10.5', '0.0.0.0', 'localhost', '127.0.0.1']
 
